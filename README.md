@@ -8,7 +8,7 @@ In the original shared-conversation run, X03 and X04 submitted conflicting stage
 
 ## Files and replay
 
-The version 7 ZIP in the repository root contains the files described below.
+The version 7 reproducibility package contains the files described below.
 
 - `agent/` contains the original study instruction, tool contracts, request texts, reference and episode traces, and replay scripts.
 - `followup/` contains the new runs, tool-interface transcripts, scoring, and session protocol. Four fresh controller sessions each received four requests. Each saw only the supplied task materials, its current request, and its own tool results through the study interface. The backend source, fault assignments and pre-recorded replies were withheld. Requests within a session shared context.
